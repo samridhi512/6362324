@@ -1,6 +1,31 @@
-@MyFirstWebAPI_HostAddress = http://localhost:5072
+@host = https://localhost:7053
+@basePath = /api/Emp
 
-GET {{MyFirstWebAPI_HostAddress}}/weatherforecast/
+### GET all employees
+GET {{host}}{{basePath}}
 Accept: application/json
 
-###
+### GET employee by ID
+GET {{host}}{{basePath}}/1
+Accept: application/json
+
+### POST a new employee
+POST {{host}}{{basePath}}
+Content-Type: application/json
+
+[
+    "Alice",
+    "Bob",
+    "Charlie"
+]
+
+### PUT - Update employee at ID 1
+PUT {{host}}{{basePath}}/1
+Content-Type: application/json
+
+[
+    "Updated Alice"
+]
+
+### DELETE employee at ID 1
+DELETE {{host}}{{basePath}}/1
