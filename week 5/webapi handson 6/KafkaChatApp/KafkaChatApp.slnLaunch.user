@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "KafkaChatApp.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\KafkaChatConsume\\KafkaChatConsumer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
