@@ -1,0 +1,53 @@
+.main-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  color: brown;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Label styles */
+.label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.name-label {
+  color: blue;
+}
+.school-label {
+  color: red;
+}
+.total-label {
+  color: purple;
+}
+.score-label {
+  color: green;
+}
+
+/* Value styles */
+.value {
+  font-size: 20px;
+}
+
+.name-value {
+  color: slateblue;
+}
+
+.school-value {
+  color: #c2185b;
+}
+
+.total-value {
+  color: #6a1b9a;
+}
+
+.score-value {
+  color: #388e3c;
+  font-weight: bold;
+}
